@@ -1,0 +1,101 @@
+@import url('reset.css');
+/*IMPORT FONTS!!! for body and h1*/
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DBD5C9;
+    font-size: 20px;
+    
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: 765px;
+}
+
+.section1{
+    flex-direction: column;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.wall{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 223px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.conveyor{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    background-color: #2B212C;
+}
+
+#bottom-wall{
+    flex-direction: row;
+}
+
+.wall-block{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding: 15px 80px;
+}
+
+.margin-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.central-block{
+    display: flex;
+}
+
+.small-block{
+    background: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.big-block{
+    flex: 1;
+}
+
+
+
+.test{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left center;
+  width: 200px;
+  height: 30px;
+  background: black;
+  transform: rotate(30deg)
+}
+
+input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+}
